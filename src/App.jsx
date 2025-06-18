@@ -1,10 +1,11 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignUp from "./components/SignUp";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Profile from "./Pages/Profile";
-import Landing from "./Pages/Landing";
+import Landing from "./pages/Landing";
+import Profile from "./pages/Profile";
+
 
 
 export default function App() {
